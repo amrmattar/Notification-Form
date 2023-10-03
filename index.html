@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="shortcut icon" href="images/image1.jpg">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div class="container mt-5 mb-5 bac" >
+         <button type="submit" class="btn btn-primary">عودة للرئيسية</button>
+    </div>
+     
+    <div class="container  parent" >
+        <h2>شاشة التسجيل</h2>
+        <form >
+            <div class="mb-3">
+                <label for="sender" class="form-label">المرسل اليه </label>
+                <select class="form-select" id="sender" name="sender">
+                    <option value="sender1">العملاء</option>
+                    <option value="sender2">المستشارين</option>
+                    <option value="sender3">الكل</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="title" class="form-label">عنوان الاشعار</label>
+                <input type="text" class="form-control" placeholder="ادخل عنوان الاشعار" id="title" name="title" required>
+            </div>
+            <div class="mb-3">
+                <label for="details" class="form-label">تفاصيل الاشعار</label>
+                <textarea class="form-control" id="details" placeholder="ادخل تفاصيل الاشعار" name="details" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">ارسال</button>
+        </form>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/asd.js"></script>
+</body>
+
+</html>
