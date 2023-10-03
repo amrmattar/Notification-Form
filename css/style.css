@@ -11,7 +11,9 @@ html {
     background-color: #d7d8e4;
     border-radius: 10px;
   }
-
+body{
+  background: #F8F9FA;
+}
 
 .parent{
     direction: rtl;
@@ -30,4 +32,29 @@ html {
 }
 .parent h1{
     margin-bottom: 25px;
+}
+.eyas{
+  margin-bottom: 10px;
+}
+.eyas img{
+  width: 95px;
+}
+.parent h2{
+  font-size: 23px;
+}
+.custombtn{
+  background: #3C4858;
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 9px 14px;
+}
+.custombtn:hover{
+  background-color: #333d4b;
+    border-color: #303a46;
+    color: #e9ecef;
+}
+.custombtn:focus{
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(143 156 175 / 25%);
 }
